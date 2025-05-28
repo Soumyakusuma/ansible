@@ -6,4 +6,4 @@
   tasks:
     - name: gettng varaibles
       ansible.builtin.debug:
-        msg: "Hello learning {{ course}} in {{ time }} by{{ trainee }}"
+        msg: "Hello learning {{ course}} in {{ time }} by {{ trainee }}"
