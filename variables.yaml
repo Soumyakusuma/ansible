@@ -1,0 +1,12 @@
+- name: working with varaibles
+  hosts: local
+  connection: local
+  vars:
+    course: varaibles
+    time: 20 min
+    trainee: sweety 
+  tasks:
+    - name: varaiables learning
+      ansible.builtin.debug:
+        msg: "{{ course }} learning in {{ time }} by {{ trainee }}" 
+      
