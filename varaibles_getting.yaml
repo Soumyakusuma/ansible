@@ -1,0 +1,9 @@
+- name: fetching varaibles from main file
+  hosts: local
+  connection: local
+  vars_files:
+  - varaiales_storing.yaml
+  tasks:
+    - name: gettng varaibles
+      ansible.builtin.debug:
+        msg: "Hello learning {{ course}} in {{ time }} by{{ trainee }}"
