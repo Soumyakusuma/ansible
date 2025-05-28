@@ -1,6 +1,6 @@
 - name: varaibles through prompt
-  hosts: localhost
-  connection: localhost
+  hosts: local
+  connection: local
   vars_prompt:
     - name: username
       prompt: "please enter your name"
