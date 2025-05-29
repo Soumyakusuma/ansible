@@ -5,7 +5,7 @@
     duration: 170 #number
     course: devops #string
     is_live: true  #boolean
-    Tools: #list []
+    tools: #list []
     - linux
     - shell
     - ansible 
