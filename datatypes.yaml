@@ -12,7 +12,7 @@
     concepts: #map/dict/object {}
       CI: Jenkins
       Scripting: "shell,ansible,python"
-  tasks:
-    - name: print data types
-      ansible.builti.debug:
-        msg: "course is {{ course }} duration is {{ duration }} is now live {{ is_live}} tools learning {{ tools }} and concepts learn {{ concepts }}"
+    tasks:
+      - name: print data types
+        ansible.builti.debug:
+          msg: "course is {{ course }} duration is {{ duration }} is now live {{ is_live}} tools learning {{ tools }} and concepts learn {{ concepts }}"
