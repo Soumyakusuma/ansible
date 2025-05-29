@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    duartion: 170 #number
+    duration: 170 #number
     course: devops #string
     is_live: true  #boolean
     Tools: #list []
