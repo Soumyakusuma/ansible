@@ -14,5 +14,5 @@
       Scripting: "shell,ansible,python"
   tasks:
     - name: print data types
-      ansible.builti.debug:
+      ansible.builtin.debug:
         msg: "course is {{ course }} duration is {{ duration }} is now live {{ is_live}} tools learning {{ tools }} and concepts learn {{ concepts }}"
