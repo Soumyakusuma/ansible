@@ -3,5 +3,6 @@
   connection: local
   tasks:
     - name: learn functions
+      person: suresh
       debug:
         msg: "person is {{ person | default('Ramesh')}}"
