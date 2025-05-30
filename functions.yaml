@@ -22,3 +22,12 @@
           trainee: sweety
       debug:
         msg: "{{ courses | dict2items }}"
+
+    - name: list into map
+      vars:
+        courses:
+         - { 'key': name, 'value': ansible}
+         - { 'key': time, 'value': 20 min}
+         - { 'key': trainee, 'value': sweety}
+      debug:
+        msg: "{{ courses | items2dict }}"
