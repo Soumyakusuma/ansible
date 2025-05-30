@@ -3,7 +3,10 @@
   connection: local
   tasks: 
   - name: redirect ls output theough pipe
-    shell: "ls -ltr > /tmp/output.txt"
-
-
+    coomand: "ls -ltr"
+    register: command_result
+ 
+  - name: checl output is success
+    debug:
     
+      msg: {{ register }}
