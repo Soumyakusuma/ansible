@@ -34,7 +34,7 @@
 
     - name: check valid ip address
       vars:
-        ip="300.900:789:356"
+        ip: 00.900:789:356"
       debug:
         msg: "ip is {{ ip | ansibe.utils.ipaddr }}"
         
