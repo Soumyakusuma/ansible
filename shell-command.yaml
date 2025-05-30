@@ -1,0 +1,9 @@
+- name: using shell vs command as module
+  hosts: local
+  connection: local
+  tasks: 
+  - nmae: redirect ls output theough pipe
+    shell: "ls -ltr > /tmp/output.txt"
+
+
+    
