@@ -1,9 +1,15 @@
 - name: learning functions
   hosts: local
   connection: local
+  vars:
+    persons: Ramesh,Suresh,Raheem
   tasks:
     - name: learn functions
       vars:
         person: suresh
       debug:
         msg: "person is {{ person | default('Ramesh')}}"
+  
+    - name: print list as functions
+      debug:
+        msg: "persons are {{ persons | split(',') }}"
