@@ -9,4 +9,4 @@
   - name: checl output is success
     debug:
 
-      msg: "{ command_result }}"
+      msg: "{{ command_result }}"
