@@ -13,3 +13,12 @@
     - name: print list as functions
       debug:
         msg: "persons are {{ persons | split(',') }}"
+
+    - name: map into list
+      vars:
+        courses:
+          name: ansible
+          time: 20 min
+          trainee: sweety
+      debug:
+        msg: "{{ courses | dict2items }}"
