@@ -8,5 +8,5 @@
  
   - name: checl output is success
     debug:
-    
-      msg: {{ register }}
+
+      msg: "{ command_result }}"
