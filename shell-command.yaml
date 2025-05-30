@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   tasks: 
-  - nmae: redirect ls output theough pipe
+  - name: redirect ls output theough pipe
     shell: "ls -ltr > /tmp/output.txt"
 
 
