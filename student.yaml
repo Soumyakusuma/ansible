@@ -1,0 +1,21 @@
+- name: Sweety
+  lastname: kusuma
+  email: soumyakusuma2@gmail.com
+  address: 
+  - type: perm
+    doorno: 65
+    street: gandhinagar
+  - type: temp
+    doorno: 76
+    street: srnagar
+
+- name: Soumya
+  lastname: kusuma
+  email: soumyakusuma2@gmail.com
+  address: 
+  - type: perm
+    doorno: 55
+    street: gandhinagar
+  - type: temp
+    doorno: 72
+    street: srnagar

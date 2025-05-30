@@ -1,0 +1,7 @@
+- name: learning functions
+  hosts: local
+  connection: local
+  tasks:
+    - name: learn functions
+      debug:
+        msg: "person is {{ person | default('Ramesh')}}"
